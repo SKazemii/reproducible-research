@@ -6,9 +6,15 @@ with h5py.File(
 ) as hdf:
     items = list(hdf.items())
     print(items)
-    barefoot = hdf.get("barefoot")
+
+    barefoot = hdf.get("surveydata")
     items = list(barefoot.items())
     print(items)
+
+    w2 = barefoot.get("slow")
+    items = list(w2.items())
+    print(items)
+
     data = np.array(barefoot.get("data"))
     print(data.shape)
     metadata = np.array(barefoot.get("metadata"))

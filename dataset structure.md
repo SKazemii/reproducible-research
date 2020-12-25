@@ -2,19 +2,37 @@
 
 
 
--   [colourvideo_seg.h5]
-    - /barefoot
-    - /shod_common
-    - /shod_other
-    - surveydata 
+-   ### colourvideo_seg.h5
+    - #### /barefoot
+        - data: shape (320, 300, 180, 320, 3)
+        - metadata: shape (320, 3)
+        - timestamps: shape (320, 300)
+    - #### /shod_common
+        - ##### /fast
+            - data: shape (290, 300, 180, 320, 3)
+            - metadata: shape (290, 3)
+            - timestamps: shape (290, 300)
+        - ##### /natural
+            - data: shape (320, 300, 180, 320, 3)
+            - metadata: shape (320, 3)
+            - timestamps: shape (320, 300)
+        - ##### /slow
+            - data: shape (325, 300, 180, 320, 3)
+            - metadata: shape (325, 3)
+            - timestamps: shape (325, 300)
+    - #### /shod_other
+        - data: shape (320, 300, 180, 320, 3)
+        - metadata: shape (320, 3)
+        - timestamps: shape (320, 300)
+    - #### surveydata 
         - shape (5, 7)
--   [colourvideo_sil.h5]
--   [depthvideo_seg.h5]
--   [depthvideo_sil.h5]
--   [footpressures_align.h5]
--   [footpressures_seg.h5]
--   [jointpositions_seg.h5]
--   [jointpositions.h5]
+-   ### colourvideo_sil.h5]
+-   ### depthvideo_seg.h5]
+-   ### depthvideo_sil.h5]
+-   ### footpressures_align.h5]
+-   ### footpressures_seg.h5]
+-   ### jointpositions_seg.h5]
+-   ### jointpositions.h5]
 
     -   [Data](#source-data)
     -   [Data Analysis](#data-analysis)
