@@ -1,6 +1,21 @@
-## Table of content 
+## Table of content in datasets
 
--   [Getting Started](#getting-started)
+
+
+-   [colourvideo_seg.h5]
+    - /barefoot
+    - /shod_common
+    - /shod_other
+    - surveydata 
+        - shape (5, 7)
+-   [colourvideo_sil.h5]
+-   [depthvideo_seg.h5]
+-   [depthvideo_sil.h5]
+-   [footpressures_align.h5]
+-   [footpressures_seg.h5]
+-   [jointpositions_seg.h5]
+-   [jointpositions.h5]
+
     -   [Data](#source-data)
     -   [Data Analysis](#data-analysis)
     -   [Manuscript and Presentation](#manuscript-and-presentation)
