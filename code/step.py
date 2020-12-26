@@ -2,12 +2,13 @@ import numpy as np
 import h5py
 
 with h5py.File(
-    "/Users/saeedkazemi/Documents/reproducible-research/data/colourvideo_seg.h5", "r"
+    "/Users/saeedkazemi/Documents/reproducible-research/data/depthvideo_seg.h5",
+    "r",
 ) as hdf:
     items = list(hdf.items())
     print(items)
 
-    barefoot = hdf.get("surveydata")
+    barefoot = hdf.get("/shod_common")
     items = list(barefoot.items())
     print(items)
 
